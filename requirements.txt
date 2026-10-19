@@ -1,0 +1,4 @@
+# Use Python 3.11 or 3.12 in a dedicated virtual environment.
+google-genai==2.28.0
+jupyterlab>=4.4,<5
+ipykernel>=6.29,<8

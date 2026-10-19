@@ -1,0 +1,32 @@
+# Local environments and Python caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter state and executed copies
+.ipynb_checkpoints/
+*.executed.ipynb
+jupyter-runtime/
+
+# Private credentials: never commit these
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+~$*
+*.tmp
+*.log
+*.zip
